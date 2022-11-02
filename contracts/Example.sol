@@ -4,10 +4,7 @@ contract ExampleContract {
     
     event ValueChanged(string oldValue, string newValue);
     string public value;
-    
-    constructor(string memory _value) public {
-        value = _value;
-    }
+    uint public makeUnique = 123456654321;
     
     function setValue(string memory _value) public {
         emit ValueChanged(value, _value);
