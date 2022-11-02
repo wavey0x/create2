@@ -1,4 +1,4 @@
-# Ad
+# Brownie CREATE2 deployer
 
 In `find_address.py` update the following fields at the top of the script.
 - deployer account
